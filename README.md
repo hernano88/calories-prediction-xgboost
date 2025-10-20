@@ -6,21 +6,21 @@ Modelo de Machine Learning para estimar la cantidad de calorías quemadas durant
 
 ## 🎯 Objetivo
 
-Predecir las calorías quemadas según características físicas y parámetros del ejercicio.
+- Predecir las calorías quemadas según características físicas y parámetros del ejercicio.
 
-Explorar relaciones entre variables como edad, peso, frecuencia cardíaca y gasto calórico.
+- Explorar relaciones entre variables como edad, peso, frecuencia cardíaca y gasto calórico.
 
-Entrenar un modelo de regresión basado en XGBoost para obtener una estimación precisa.
+- Entrenar un modelo de regresión basado en XGBoost para obtener una estimación precisa.
 
 ---
 
 ## 🛠️ Desarrollo
 
-Carga y unificación de datos:
+- Carga y unificación de datos:
 
 Se importaron dos datasets (calories.csv y exercise.csv) y se combinaron por índice para generar una única tabla.
 
-Limpieza y exploración:
+- Limpieza y exploración:
 
 Eliminación de columnas irrelevantes (User_ID).
 
@@ -28,11 +28,11 @@ Conversión de variables categóricas (Gender) a formato numérico (0 = male, 1 
 
 Análisis exploratorio con histogramas (Age, Height, Weight) y distribución de género.
 
-Análisis de correlación:
+- Análisis de correlación:
 
 Se generó un heatmap para observar la relación entre variables y su influencia sobre las calorías quemadas.
 
-Modelado:
+- Modelado:
 
 Separación de variables predictoras (X) y variable objetivo (Y).
 
@@ -40,7 +40,7 @@ División del dataset en entrenamiento y test (80/20).
 
 Entrenamiento del modelo XGBoost Regressor.
 
-Evaluación:
+- Evaluación:
 
 Predicción sobre el set de test y cálculo del Mean Absolute Error (MAE) como métrica principal de desempeño.
 
