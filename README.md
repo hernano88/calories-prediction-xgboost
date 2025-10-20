@@ -1,8 +1,10 @@
-Proyecto 5. Predicción de Calorías Quemadas con XGBoost
+# Proyecto 5. Predicción de Calorías Quemadas con XGBoost
 
 Modelo de Machine Learning para estimar la cantidad de calorías quemadas durante el ejercicio físico, utilizando variables biométricas (edad, género, altura, peso, frecuencia cardíaca y duración).
 
-🎯 Objetivo
+---
+
+## 🎯 Objetivo
 
 Predecir las calorías quemadas según características físicas y parámetros del ejercicio.
 
@@ -10,7 +12,9 @@ Explorar relaciones entre variables como edad, peso, frecuencia cardíaca y gast
 
 Entrenar un modelo de regresión basado en XGBoost para obtener una estimación precisa.
 
-🛠️ Desarrollo
+---
+
+## 🛠️ Desarrollo
 
 Carga y unificación de datos:
 
@@ -40,7 +44,9 @@ Evaluación:
 
 Predicción sobre el set de test y cálculo del Mean Absolute Error (MAE) como métrica principal de desempeño.
 
-📸 Ejemplos (código del notebook)
+---
+
+## 📸 Ejemplos (código del notebook)
 # Entrenamiento del modelo
 from xgboost import XGBRegressor
 from sklearn import metrics
@@ -57,7 +63,9 @@ print("Mean Absolute Error = ", mae)
 plt.figure(figsize=(10,10))
 sns.heatmap(correlation, cbar=True, square=True, fmt='.1f', annot=True, cmap='Blues')
 
-📊 Resultados
+---
+
+## 📊 Resultados
 
 Mean Absolute Error (MAE): bajo, indicando buena capacidad predictiva.
 
@@ -65,7 +73,9 @@ El modelo logró una relación coherente entre variables fisiológicas y gasto e
 
 Las variables peso, duración y frecuencia cardíaca resultaron las más influyentes.
 
-🔧 Tecnologías utilizadas
+---
+
+## 🔧 Tecnologías utilizadas
 
 Python
 
