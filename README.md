@@ -47,19 +47,23 @@ Predicción sobre el set de test y cálculo del Mean Absolute Error (MAE) como m
 ---
 
 ## 📸 Ejemplos (código del notebook)
-# Entrenamiento del modelo
+
+Entrenamiento del modelo
+
 from xgboost import XGBRegressor
 from sklearn import metrics
 
 model = XGBRegressor()
 model.fit(X_train, Y_train)
 
-# Predicción y evaluación
+Predicción y evaluación
+
 test_data_prediction = model.predict(X_test)
 mae = metrics.mean_absolute_error(Y_test, test_data_prediction)
 print("Mean Absolute Error = ", mae)
 
-# Visualización de correlación
+Visualización de correlación
+
 plt.figure(figsize=(10,10))
 sns.heatmap(correlation, cbar=True, square=True, fmt='.1f', annot=True, cmap='Blues')
 
