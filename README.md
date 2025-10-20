@@ -1,4 +1,4 @@
-# Proyecto 5. Predicción de Calorías Quemadas con XGBoost
+# Proyecto Predicción de Calorías Quemadas con XGBoost
 
 Modelo de Machine Learning para estimar la cantidad de calorías quemadas durante el ejercicio físico, utilizando variables biométricas (edad, género, altura, peso, frecuencia cardíaca y duración).
 
