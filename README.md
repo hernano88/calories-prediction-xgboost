@@ -48,13 +48,9 @@ Predicción sobre el set de test y cálculo del Mean Absolute Error (MAE) como m
 
 ## 📸 Ejemplos (código del notebook)
 
-Entrenamiento del modelo
+Entrenamiento del modelo / Predicción y evaluación
 
 ![Entrenamiento del modelo](fotos/entrenamiento.PNG)
-
-Predicción y evaluación
-
-
 
 Visualización de correlación
 
